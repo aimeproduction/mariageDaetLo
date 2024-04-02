@@ -9,9 +9,7 @@ body {
 
 /* Style pour les téléphones */
 
-h1 {
-    font-size: 24px; /* Taille de la police réduite pour les titres sur les petits écrans */
-}
+
 p {
     font-size: 24px; /* Taille de la police réduite pour les paragraphes sur les petits écrans */
 }
