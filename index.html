@@ -7,7 +7,6 @@
 
         /* Style de base */
         body {
-            font-family: "Times New Roman", sans-serif;
             margin: 0;
             padding: 0;
             width: 100%;
@@ -18,7 +17,7 @@
     width: 90%;
     line-height: 1.5;
     word-spacing: 0.3em;
-    font-family: "Serif Fonts", "Handwritten Script Fonts", sans-serif;
+    font-family: "fantasy", "Handwritten Script Fonts", sans-serif;
 
 }
         /* Style pour les téléphones */
@@ -61,8 +60,20 @@
             color: deeppink;
             font-size: 65px;
         }
-        .val{
-            color: green;
+        .all{
+display: flex;
+        }
+        .second{
+            display: flex;
+            align-items: center;
+            margin-left: 3%;
+        }
+        .first{
+            word-spacing: 0.3em;
+        }
+        .test{
+            font-family: "Book Antiqua", "Serif Fonts", "Handwritten Script Fonts", sans-serif;
+            font-size: 60px;
         }
 
     </style>
@@ -76,38 +87,25 @@
 </div>
 <br>
 <div class="contenu">
-    <p class="introduction">Nous sommes une fois de plus très heureux de vous convier à notre cérémonie
-        de mariage. Votre présence est vivement souhaitée pour partager ce moment de pure bonheur avec nous. Ci-dessous, vous trouverez quelques infos concernant votre billet.</p>
-    <br>
-    <table>
-        <tr>
-            <td>
-                <strong>Monsieur:</strong>
-            </td>
-            <td class="val"> <strong>Kamdem Kamdem</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Et :</strong>
-            </td>
-            <td class="val"> <strong>Madame</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Type de billet:</strong>
-            </td>
-            <td class="val"><strong> Couple</strong></td>
-        </tr>
+    <p class="introduction">
+        Chers Monsieur <strong><i class="test">Kamdem Jean</i></strong> et Madame <strong><i class="test">Kamdem</i></strong>,<br><br>
 
-    </table>
+        Nous sommes une fois de plus très heureux de vous convier à notre cérémonie
+        de mariage et votre presence est vivement souhaiter afin de partager ce moment avec nous.
+        Chaque sourire et chaque témoignage d'affection contribuera à rendre cette journée encore plus mémorable.
+        Nous espérons que vous pourrez vous joindre à nous pour célébrer l'amour, l'unité et le bonheur.
+        </p>
+    <div class="all">
+        <div class="first">
+            <p>
+                Type de billet: <strong>couple</strong>
+            </p>
+        </div>
+        <div class="second">
+            <img src="ok.png" alt="image" width="50px">
+        </div>
+    </div>
 
-
-
-
-<div>
-    <br><br><br>
-    <img src="ok.png" alt="image">
-</div>
 </div>
 </body>
 </html>
